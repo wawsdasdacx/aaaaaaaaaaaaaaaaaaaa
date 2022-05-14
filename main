@@ -10,13 +10,6 @@ do
 	if imgui then imgui:Destroy() end
 end
 
-pcall(function()
-    hint = Instance.new("Hint",workspace)
-    hint.Text "Undetected version is in our discord (discord.gg/Z5c44s7nq4)"
-    wait(5)
-    hint:Destroy()
-end)
-
 local imgui = Instance.new("ScreenGui")
 local Prefabs = Instance.new("Frame")
 local Label = Instance.new("TextLabel")
